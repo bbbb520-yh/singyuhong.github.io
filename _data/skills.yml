@@ -1,0 +1,10 @@
+- name: 光電元件與材料分析
+  percentage: 90
+- name: 薄膜製程與儀器操作
+  percentage: 85
+- name: Python / 自動化腳本
+  percentage: 80
+- name: AI 工具應用（Notion AI, LangChain）
+  percentage: 75
+- name: 英語閱讀與科技溝通
+  percentage: 70
