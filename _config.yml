@@ -2,21 +2,21 @@ title: "邢予泓 Sing Yuhong"
 description: "光電材料與AI工具開發者"
 email: "h9c2511@gmail.com"
 url: "https://singyuhong.github.io"
-baseurl: ""  # 若為 github.io 主站留空，否則填 "/your-repo-name"
-theme: "YoussefRaafatNasry/portfolYOU"
+baseurl: ""  # 若是 repo 叫 singyuhong.github.io，這裡應留空
+
+remote_theme: YoussefRaafatNasry/portfolYOU  # ✅ 正確方式是 remote_theme 而非 theme
 
 # 社群帳號
 github_username: singyuhong
+linkedin_username: sing-yuhong  #（若有）
 
-
-# 頁面導覽
+# Pages collection：讓 _pages/ 下的 md 檔能產生頁面
 collections:
   pages:
     output: true
     permalink: /:title/
-sass:
-  style: compressed
 
+# 導覽列連結
 navigation:
   - title: "關於我"
     url: /about/
@@ -24,4 +24,9 @@ navigation:
     url: /skills/
   - title: "專案"
     url: /projects/
+
+# Sass 設定（支援自訂 style.scss）
+sass:
+  style: compressed
+
 
