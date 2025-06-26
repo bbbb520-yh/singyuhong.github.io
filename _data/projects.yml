@@ -1,0 +1,11 @@
+- name: QLED 白光元件製作與效率優化
+  description: >
+    以摻雜與插入層結構優化紅綠藍 QLED，成功製作白光元件並提升效率2%
+  tools: [Quantum Dots, Spin-coating, EQE Analysis]
+  link: ""
+
+- name: AI PaperBot：自動發送專業論文的機器人
+  description: >
+    自建關鍵字追蹤與篩選系統，將arXiv論文摘要每日發送到Telegram
+  tools: [Python, arXiv API, Telegram Bot]
+  link: "https://github.com/singyuhong/paperreader"
