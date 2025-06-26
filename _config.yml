@@ -1,0 +1,16 @@
+title: "邢予泓 Sing Yuhong"
+description: "光電材料與AI工具開發者"
+email: "h9c2511@gmail.com"
+url: "https://singyuhong.github.io"
+baseurl: ""  # 若為 github.io 主站留空，否則填 "/your-repo-name"
+theme: "YoussefRaafatNasry/portfolYOU"
+
+# 社群帳號
+github_username: singyuhong
+
+
+# 頁面導覽
+collections:
+  pages:
+    output: true
+    permalink: /:title/
