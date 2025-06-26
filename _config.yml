@@ -16,3 +16,12 @@ collections:
     permalink: /:title/
 sass:
   style: compressed
+
+navigation:
+  - title: "關於我"
+    url: /about/
+  - title: "技能"
+    url: /skills/
+  - title: "專案"
+    url: /projects/
+
